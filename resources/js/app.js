@@ -5,6 +5,11 @@
  */
 
 import './bootstrap';
+
+/* Static Assets */
+
+/* Static Assets */
+
 import { createApp } from 'vue';
 import axios  from 'axios';
 import router from './route/index';

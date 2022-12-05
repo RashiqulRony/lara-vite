@@ -1,24 +1,14 @@
 <template>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="card-header">Example Component</div>
-
-                    <div class="card-body">
-                        I'm an example component.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <footer style="padding: 50px 10px 0 10px;">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>© 2017–2021 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
 </template>
 
 <script>
     export default {
         name: 'FooterComponent',
         mounted() {
-            console.log('Component mounted.')
         }
     }
 </script>
